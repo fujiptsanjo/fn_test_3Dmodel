@@ -1,0 +1,188 @@
+{
+    "asset": {
+        "copyright": "2025 (c) Adobe Inc.",
+        "generator": "Adobe Substance 3D Stager - cfd5f8abf16eac3560f90b27a1db259d32723931",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 10093,
+            "type": "VEC3",
+            "max": [
+                0.01928040012717247,
+                0.024538299068808557,
+                0.0030133500695228578
+            ],
+            "min": [
+                -0.01928040012717247,
+                -0.024538299068808557,
+                -0.0030133500695228578
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 10093,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 10093,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 10093,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5125,
+            "count": 51762,
+            "type": "SCALAR",
+            "max": [
+                10092.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 121116,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 121116,
+            "byteLength": 121116,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 242232,
+            "byteLength": 161488,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 403720,
+            "byteLength": 80744,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 484464,
+            "byteLength": 207048,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 691512,
+            "uri": "fn_3Dtest_binary.bin"
+        }
+    ],
+    "images": [
+        {
+            "name": "composited_baseColor",
+            "uri": "fn_3Dtest_images/composited_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "composited_roughness",
+            "uri": "fn_3Dtest_images/composited_roughness.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "name": "マテリアル 0",
+            "doubleSided": true,
+            "extensions": {
+                "KHR_materials_ior": {
+                    "ior": 1.600000023841858
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "groupNumber_0",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "working_cam_n3d"
+        },
+        {
+            "translation": [
+                0.0,
+                0.04907659813761711,
+                0.0
+            ],
+            "scale": [
+                2.0,
+                2.0,
+                2.0
+            ],
+            "mesh": 0,
+            "name": "groupNumber_0"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "composited_baseColor",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "composited_roughness",
+            "sampler": 0,
+            "source": 1
+        }
+    ],
+    "scene": 0,
+    "extensionsUsed": [
+        "KHR_materials_ior"
+    ]
+}
